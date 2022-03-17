@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Todo extends Model
 {
-    protected $table = 'Todos';
+    protected $table = 'todos';
     protected $fillable = ['title','deadline'];
     protected $appends = ['DeadlineLocal'];
 
